@@ -184,7 +184,15 @@ export abstract class Accordion extends View {
     }
 
     set allowMultiple(value: boolean) {
-        this._allowMultiple = value;
+        if(typeof value === "string")
+        {
+            var valueAsAny:any = <any>value;
+            this._allowMultiple = JSON.parse(valueAsAny);
+        }
+        else
+        {
+            this._allowMultiple = value;
+        }
     }
 
     get separatorColor() {

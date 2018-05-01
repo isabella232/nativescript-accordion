@@ -9,7 +9,7 @@
     }
   },
   "dependencies": {
-    "nativescript-accordion": "file:..",
+    "nativescript-accordion": "file:../src",
     "tns-core-modules": "^3.0.0"
   },
   "devDependencies": {

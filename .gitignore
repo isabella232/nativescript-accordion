@@ -16,7 +16,12 @@ demo-ng/hooks
 demo-ng/lib
 demo-ng/platforms
 demo-ng/node_modules
-node_modules
+src/node_modules
 .vscode
 .idea
 angular/compiled
+!src/index.d.ts
+!src/angular/index.d.ts
+!src/references.d.ts
+!src/accordion.android.d.ts
+!src/accordion.ios.d.ts
